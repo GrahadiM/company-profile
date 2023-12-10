@@ -1,6 +1,6 @@
 ### Step by step membuat Web dengan FLASK PYTHON
-- Tuliskan command menggunakan terminal : <code>pip install Flask</code>
-- Buat file dengan nama app.py, lalu masukan code dibawah :
+- Tuliskan command menggunakan terminal <code>pip install Flask</code> dan <code>pip install flask-login</code>
+- Buat file dengan nama app.py, lalu masukan source code dibawah :
 <code>from flask import Flask, render_template
 
 app = Flask(__name__, static_folder='assets', template_folder='templates')
@@ -28,8 +28,7 @@ if __name__ == '__main__':
       - your_image.jpg</code>
 
 ### Run Server
-- Tuliskan command menggunakan terminal:
-<code>python app.py</code>
+- Tuliskan command menggunakan terminal <code>python app.py</code>
 
 ### Notes
 - [x] Program ini untuk pembelajaran basic.

@@ -26,6 +26,15 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
+                    {% if current_user.is_authenticated %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('logout') }}">Logout</a>
+                    </li>
+                    {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('login') }}">Login</a>
+                    </li>
+                    {% endif %}
                 </ul>
             </div>
         </div>
@@ -78,7 +87,7 @@
         </section>
     </div>
 
-    <section id="contact" class="bg-light py-5">
+    <section id="contact" class="bg-light py-5 mt-5">
         <div class="container">
             <h2>Contact Us</h2>
             <p>Email: info@example.com</p>
