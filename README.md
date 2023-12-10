@@ -1,5 +1,11 @@
 ### Step by step membuat Web dengan FLASK PYTHON
-- Tuliskan command menggunakan terminal <code>pip install Flask</code> dan <code>pip install flask-login</code>
+- Tuliskan command menggunakan terminal 
+```
+pip install Flask
+```
+```
+pip install flask-login
+```
 - Buat file dengan nama app.py, lalu masukan source code dibawah :
 ```
 from flask import Flask, render_template
