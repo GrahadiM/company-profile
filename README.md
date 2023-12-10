@@ -36,7 +36,10 @@ if __name__ == '__main__':
       - your_image.jpg
 
 ### Run Server
-- Tuliskan command menggunakan terminal <code>python app.py</code>
+- Tuliskan command menggunakan terminal
+```
+python app.py
+```
 
 ### Notes
 - [x] Program ini untuk pembelajaran basic.
