@@ -36,3 +36,6 @@ if __name__ == '__main__':
 - [ ] Program ini untuk pembelajaran expert.
 - [x] Program ini menggunakan server local.
 - [ ] Program ini menggunakan server public.
+- [x] Fun :wink:
+- [ ] Confuse :face_with_spiral_eyes:
+- [ ] Boring :sleeping:
